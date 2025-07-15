@@ -1,0 +1,35 @@
+.HeaderContainer{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+.nav_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-weight: 700;
+    color: #212121;
+    font-size: 35px;
+}
+.header_btn{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to top, #e2a1fe 0%, #c4c9c4 100%);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    border: 1px solid #dd8eff;
+    letter-spacing: 0.2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.6s;
+}
+.header_btn:hover{
+    transform: translateY(-2px);
+}
