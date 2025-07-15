@@ -1,0 +1,16 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(105, 9, 195);
+    width: 100%;
+    height: 20vh;
+}
+.footerLogo{
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+}
+.footerText{
+    color: #fff;
+}

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={styles.HeaderContainer}>
         <div className={styles.nav_wrapper}>
-          <div className={styles.logo}>Blogger</div>
+          <div className={styles.logo}>BLOGNEST</div>
           <button className={styles.header_btn}>Get Started</button>
         </div>
         <div className={styles.Heading_section}>

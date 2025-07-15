@@ -1,7 +1,8 @@
 .HeaderContainer{
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+    /* background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%); */
+    background-color: rgb(105, 9, 195);
 }
 .nav_wrapper{
     width: 90%;
@@ -13,7 +14,7 @@
 }
 .logo{
     font-weight: 700;
-    color: #212121;
+    color: #fff;
     font-size: 35px;
 }
 .header_btn{
@@ -44,11 +45,12 @@
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: #8502bd;
+    color: #fff;
 }
 .Heading_desc{
     max-width: 600px;
     text-align: center;
+    color: #fff;
 }
 .Heading_section form{
     margin-top: 3rem;
