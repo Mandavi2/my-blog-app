@@ -1,7 +1,7 @@
 .blogCard{
     width: 300px;
     height: fit-content;
-    padding: 15px;
+    padding: 20px 15px;
     border: 1px solid #828282;
     border-radius: 0.6rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -46,8 +46,9 @@
     /* background-image: linear-gradient(to top, #e2a1fe 0%, #c4c9c4 100%); */
     font-weight: 500;
     font-size: 14px;
-    padding: 8px 16px;
+    padding: 6px 16px;
     border-radius: 0.6rem;
+    text-decoration: none;
     cursor: pointer;
 }
 .readmoreBtn:hover{

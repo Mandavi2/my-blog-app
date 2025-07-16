@@ -19,7 +19,7 @@ const BlogList = () => {
         <div className={styles.blogListContainer}>
             {
                 blog_data.filter((item)=> menu=== 'All'? true : item.category === menu).map((item, index)=>{
-                    return <BlogItem key={index} image={item.image} title={item.title} description={item.description} category={item.category} />
+                    return <BlogItem key={index} id={item.id} image={item.image} title={item.title} description={item.description} category={item.category} />
                 })
             }
         </div>

@@ -1,0 +1,90 @@
+.blogpage_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: linear-gradient(to bottom, #0000ff, #565555); */
+    background: rgb(157, 71, 238);
+    padding: 0 10%;
+    height: 6rem;
+    width: 100%;
+}
+.page_logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+.pageBtn{
+    padding: 0.6rem 0.8rem;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0.6rem;
+/* background-color: #1E90FF; /* Dodger Blue */
+/* color: #fff; */ 
+background-color:  rgb(135, 67, 198);
+color: #fff;
+letter-spacing: 1px;
+cursor: pointer;
+}
+.page_header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 3.2rem;
+    height: 50vh;
+    background: rgb(239, 223, 254);
+}
+.blog_heading{
+    color: #212121;
+    text-align: center;
+    width: 550px;
+}
+.authorImage{
+    border-radius: 50%;
+    margin-top: 1.2rem;
+    border: 2px solid blueviolet;
+}
+.authorName{
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.imageConatiner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.blogpageImage{
+    margin-top: -92px;
+    object-fit: cover;
+    border-radius: 0.6rem;
+    border: 2px solid rgb(213, 172, 252);
+}
+.pageContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20.5%;
+}
+.contentTitle{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2b2b2b;
+    margin-top: 2rem;
+}
+.description{
+    font-size: 16px;
+    color: #3b3a3a;
+    margin-top: 1.5rem;
+}
+.pageSocials{
+    margin: 3rem 0;
+}
+.socialsContainer{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
